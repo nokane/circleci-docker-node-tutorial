@@ -1,0 +1,1 @@
+This is a demo repo for a tutorial on automating deployments to DigitalOcean Droplets with CircleCI.

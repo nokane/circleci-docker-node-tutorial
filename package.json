@@ -1,0 +1,28 @@
+{
+  "name": "circleci-docker-node-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial to automate deployment of NodeJS web server with CircleCI and Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "circleci",
+    "docker",
+    "deployment",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokane/circleci-docker-node-tutorial.git"
+  },
+  "author": "Niall O'Kane <okanenm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nokane/circleci-docker-node-tutorial/issues"
+  },
+  "homepage": "https://github.com/nokane/circleci-docker-node-tutorial#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
