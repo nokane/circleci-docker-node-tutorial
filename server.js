@@ -2,10 +2,7 @@ var express = require('express');
 var app = express();
 
 var PORT = process.env.PORT || 3000;
-
-// app.get('/', function (req, res) {
-//   res.send('Hello World!');
-// });
+var environment = process.env.environment || 'development';
 
 app.use(express.static('dist'));
 
