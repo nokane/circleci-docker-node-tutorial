@@ -9,5 +9,6 @@ WORKDIR /src
 
 RUN npm install
 RUN mkdir -p ./dist
+RUN npm run build
 
 CMD [ "npm", "run", "start" ]
